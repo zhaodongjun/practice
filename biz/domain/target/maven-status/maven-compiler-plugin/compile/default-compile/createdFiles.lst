@@ -1,0 +1,5 @@
+com\light\springboot\biz\domain\dto\CompanyDTO.class
+com\light\springboot\biz\domain\dao\CaseInfoMapper.class
+com\light\springboot\biz\domain\dto\CaseInfoDTO.class
+com\light\springboot\biz\domain\CaseInfoDomain.class
+com\light\springboot\biz\domain\model\CaseInfo.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.light.springboot.biz.domain.dao.CaseInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.light.springboot.biz.domain.model.CaseInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="company_name" property="companyName" jdbcType="VARCHAR" />
+    <result column="bbd_qyxx_id" property="bbdQyxxId" jdbcType="VARCHAR" />
+    <result column="operate_type" property="operateType" jdbcType="VARCHAR" />
+    <result column="case_type" property="caseType" jdbcType="VARCHAR" />
+    <result column="Join_date" property="joinDate" jdbcType="VARCHAR" />
+    <result column="Join_reason" property="joinReason" jdbcType="VARCHAR" />
+    <result column="Join_source" property="joinSource" jdbcType="VARCHAR" />
+    <result column="gmt_create" property="gmtCreate" jdbcType="TIMESTAMP" />
+    <result column="gmt_modified" property="gmtModified" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>
