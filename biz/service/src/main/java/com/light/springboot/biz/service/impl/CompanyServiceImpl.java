@@ -112,21 +112,17 @@ public class CompanyServiceImpl implements CompanyService {
         String[] split0530 = person0530.split(";");
         String[] splitNew = personNew.split(";");
 
-        //今天走了的
         String goToday = stringArrayCompare(personNew,split0530);
-        //今天新来的
         String comeToday = stringArrayCompare(person0530,splitNew);
 
-        //所有走了的
         String goAll = stringArrayCompare(personNew,splitOld);
-        //所有新来的
         String comeAll = stringArrayCompare(personOld,splitNew);
 
 
-        list.add("今天离职的："+goToday);
-        list.add("今天入职的："+comeToday);
-        list.add("所有离职的："+goAll);
-        list.add("所有入职的："+comeAll);
+        list.add("leaveToday："+goToday);
+        list.add("entryToday："+comeToday);
+        list.add("leaveAll："+goAll);
+        list.add("entryAll："+comeAll);
         System.out.println(list);
     }
 }
